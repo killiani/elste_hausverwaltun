@@ -1,0 +1,50 @@
+@media  (max-height: 1200px) and (min-width: 1200px){
+
+
+  footer{
+    height: 13%;
+    padding-top: 0px;
+    /* background-image: url('../images/people.svg'); */
+    width: 100%;
+  }
+
+  .bild_footer{
+    /* width: 758px; */
+    /* display: none; */
+    margin: 20px auto;
+    height: 100%;
+    background-image: url('../images/people.svg');
+    /* background-color: green; */
+    background-size: 33%;
+    background-repeat: repeat-x;
+    width: 3000px;
+  }
+
+  .repeat{                          
+    margin: 29px auto;
+    width: 3000px;
+    background-size: 21%;
+  }
+
+  .ausblenden{
+    display: none;
+  }
+}
+
+@media (max-height: 600px) and (min-width: 1200px){
+  footer{
+    height: 2vh;
+  }
+}
+
+@media (max-height: 950px) and (min-width: 1200px){
+  /* footer{
+    height: 2vh;
+  } */
+  table{
+    margin-top: 2vh;
+  }
+  td{
+    height: 0;
+  }
+}

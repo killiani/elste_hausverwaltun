@@ -1,0 +1,19 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "home86965432.1and1-data.host",
+  "port": "22",
+  "target": "/kk-2019",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "p35282200-kk",
+  "password": "kDcif8aAcgep28vC!3mcD",
+  "watch": [],
+  "transport": "scp"
+}

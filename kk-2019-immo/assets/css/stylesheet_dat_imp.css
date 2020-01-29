@@ -1,0 +1,37 @@
+body{
+  font-family: 'Exo 2', sans-serif;
+  padding: 30px;
+
+
+  /* Text zentrieren */
+text-align:left;
+
+/* Inhalt vertikal mittig platzieren */
+display: -webkit-flex;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-align-items: center;
+-webkit-box-align: center;
+-ms-flex-align: center;
+align-items: center;
+}
+
+p h2 h3 a {
+  font-weight: 100;
+}
+
+h1 {
+  font-weight: 300;
+}
+
+.ausrichtung{
+margin: 0 auto;
+max-width:600px;
+}
+
+a{
+  text-decoration: none;
+  color: grey;
+  font-weight: 100;
+}

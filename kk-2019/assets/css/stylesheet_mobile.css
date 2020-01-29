@@ -1,0 +1,89 @@
+@media (max-width: 1246px) {
+
+  body {
+    width: 100%;
+    position: relative;
+    font-family: 'Exo 2', sans-serif;
+    padding-bottom: 22vw;
+  }
+
+  table {
+    display: none;
+  }
+
+  hr {
+    /* color: ;
+    height: 2px; */
+    border: 1px solid #b7274b;
+  }
+
+  h1 {
+    font-weight: lighter;
+    font-size: 50px;
+  }
+
+  article {
+    font-weight: 100;
+    line-height: 1.5em;
+  }
+
+  .lighter {
+
+    /* line-height: 20px; */
+  }
+
+  .normal {
+    font-weight: normal;
+    line-height: 1.5em;
+  }
+
+  footer {
+    background: #b7274b;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height: 22vw;
+  }
+
+  .logo{
+    width: 50%;
+  }
+
+  .bild_footer {
+    margin-bottom: 0;
+    position: static;
+    margin: 0 auto;
+    padding-bottom: 0px;
+    display: flex;
+    /* background-image: url('../images/people.svg'); */
+  }
+
+  .inhalt_mobil {
+    padding-right: 20px;
+    width: 92vw;
+    margin: auto;
+    background-color: white;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .pfeil_button{
+    width: 40vw;
+    max-width: 350px;
+  }
+}
+
+@media (orientation: landscape) and (min-device-width: 800px) and (max-width: 1246px){
+  footer{
+    display: none;
+  }
+}
+
+/* @media only screen and (min-device-width: 480px)
+                   and (max-device-width: 640px)
+                   and (orientation: landscape) {
+
+//enter code here
+} */
