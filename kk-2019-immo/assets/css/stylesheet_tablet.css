@@ -1,11 +1,15 @@
 @media  (max-height: 1200px) and (min-width: 1200px){
-
+  body{
+    background-size: 65vh;
+  }
 
   footer{
-    height: 13%;
+    /* height: 15%; */
+    height: 18vh;
     padding-top: 0px;
     /* background-image: url('../images/people.svg'); */
     width: 100%;
+
   }
 
   .bild_footer{
@@ -25,13 +29,9 @@
     width: 3000px;
     background-size: 21%;
   }
-
-  .ausblenden{
-    display: none;
-  }
 }
 
-@media (max-height: 600px) and (min-width: 1200px){
+@media (max-height: 570px) and (min-width: 1200px){
   footer{
     height: 2vh;
   }
@@ -46,5 +46,14 @@
   }
   td{
     height: 0;
+  }
+  .ausblenden{
+    display: none;
+  }
+}
+
+@media screen and (max-height: 600px){
+  .ausblenden_2{
+    display: none;
   }
 }
